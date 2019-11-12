@@ -1,2 +1,2 @@
-# StepaMin.github.io
+# Стёпа Мин
 Сайт
