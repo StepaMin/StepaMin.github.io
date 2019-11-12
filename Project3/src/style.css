@@ -1,0 +1,156 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	color: #ff0000;
+    background-color: #2c2727;
+    height: 1300px;
+}
+
+*{
+    box-sizing: border-box;
+}
+.ava{
+    background-image: url(ava_main.jpg);
+    background-size: 150%;
+    height: 150px;
+	width: 150px;
+    border: 5px solid #302f2b;
+    position: relative;
+	left: 34px;
+	z-index: 5;
+    top: -490px;
+
+	transition: 0.5s;
+    
+    float: left;
+    display: inline-block;
+    margin-right: 35px; 
+    margin-bottom: 25px; 
+}
+.ava:hover
+{
+	transform: scale(1.15);
+}
+.menu{
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    color: wheat;
+    left: 24px;
+    top: 410px;
+    margin: 10px;
+}
+
+.info{
+    background-color: #302f2b;
+    width: 600px;
+    height: 85px;
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    color: wheat;
+    border: 10px solid #302f2b;
+    display: inline-block;
+}
+p{
+    color: wheat;
+}
+.head{
+    background-image: url(BG_main.jpg);
+    background-size: 100%;
+    width: 1300px;
+    height: 500px;
+    left: 24px;
+    position: relative;
+    border: 100px solid #302f2b;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+span{
+    color: red;
+}
+a
+{
+	color: #c2c1bc;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+a:hover
+{
+	color: #000000;
+}
+p{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.work{
+    background-color: #302f2b;
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    top: 750px;
+    left: 400px;
+    color: wheat;
+    border: 10px solid #302f2b;
+    display: inline-block;
+}
+
+.photoMain{
+    background-color: #302f2b;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    top: 1025px;
+    left: 400px;
+    color: wheat;
+    border: 10px solid #302f2b;
+    display: inline-block;
+    
+}
+h2{
+    color: #FF8000;
+    text-decoration: underline;
+}
+span{
+    color: #FF8000;
+}
+
+.Photo1{
+    height:150px;
+    width: 150px;
+    background-image: url(1.jpg);
+    border: 5px solid #302f2b;
+    display: inline-block; 
+    background-size: 100%;
+    margin: 10px;
+    margin-left: 40px;
+}
+a{
+    color: #FF8000;
+}
+.Photo2{
+    height:150px;
+    width: 150px;
+    background-image: url(2.jpg);
+    border: 5px solid #302f2b;
+    display: inline-block; 
+    background-size: 150%;
+    margin: 10px;
+}
+
+.Photo3{
+    height:150px;
+    width: 150px;
+    background-image: url(3.jpg);
+    border: 5px solid #302f2b;
+    display: inline-block; 
+    background-size: 150%;
+    margin: 10px;
+}
+
